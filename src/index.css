@@ -1,0 +1,89 @@
+/* poppins  fonts*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif !important;
+}
+/* tailwind */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* fonts  */
+.small-paragraph {
+  @apply text-sm text-black font-normal tracking-[0.03em];
+}
+
+.medium-paragraph {
+  @apply text-base text-black font-normal tracking-[0.03em];
+}
+.large-paragraph {
+  @apply text-lg text-black font-normal tracking-[0.03em];
+}
+
+/* cards */
+.main-card {
+  @apply bg-background p-[30px] rounded-[16px] border-card-outer border-[1px] w-[736px] mx-auto;
+}
+.main-card {
+  box-shadow: -3px 0px 16px rgba(0, 0, 0, 0.1);
+}
+.options-card {
+  @apply border-card-outer border-[1px] rounded-[8px] w-[333px] px-[8px] py-[6px];
+}
+
+/* modal */
+.modal {
+  width: 736px !important;
+}
+.modal-card {
+  background: #fefcf5;
+  padding: 60px 20px;
+  border: 1px solid #cac5b7;
+  border-radius: 16px;
+  width: 736px;
+  margin: auto;
+  margin-top: 20px;
+  height: fit-content;
+  box-shadow: -3px 0px 16px rgba(0, 0, 0, 0.1);
+  transform: translate(12px, 25px);
+}
+.modal-dialog {
+  margin: 0 !important;
+}
+.modal-content {
+  border: none !important;
+  outline: none !important;
+  background: inherit !important;
+  width: 700px !important;
+  padding: 20px 0 !important;
+}
+.dialog {
+  padding: 0 !important;
+}
+.carousel-control-prev {
+  width: 36px !important;
+  height: 36px !important;
+  margin: auto !important;
+  background: #4e90a8;
+  border-radius: 50% !important;
+  margin-left: 10px !important;
+}
+.carousel-control-prev span {
+  width: 18px !important;
+  height: 18px !important;
+  margin: auto !important;
+}
+.carousel-control-next {
+  width: 36px !important;
+  height: 36px !important;
+  margin: auto !important;
+  background: #4e90a8;
+  border-radius: 50% !important;
+  margin-right: 10px !important;
+}
+.carousel-control-next span {
+  width: 18px !important;
+  height: 18px !important;
+  margin: auto !important;
+}
